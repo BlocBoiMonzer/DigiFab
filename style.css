@@ -33,16 +33,11 @@ header{
 
 header nav{
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-top: 5rem;
-}
-
-header nav h1{
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5rem;
+  /*padding-left: 1rem;
+    padding-top: 5rem; for nav with multiple buttons*/
 }
 
 header nav ul li{
@@ -55,6 +50,7 @@ header nav ul li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    color: black;
 }
 
 header nav ul li a:visited {
@@ -68,7 +64,7 @@ header nav ul li a:visited {
     flex-wrap: wrap;
     gap: 5rem;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 0%;
   /*justify-content: space-between;*/
 }
 
@@ -79,17 +75,43 @@ header nav ul li a:visited {
 .blog-items article{
     flex-grow: 1;
 }
-/*
-.blog-items article img{
-    width: 100%;
-}
-*/
 
+
+#front-page-container{
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 1200px;
+    width: 100%;
+    overflow: auto;
+}
+
+main{
+    width: 80%;
+    float: left;
+}
+
+
+.article-content{
+    width: 80%;
+    float: left;
+}
+
+main article{
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    border: 1px solid #d9d9d9;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: antiquewhite;
+}
+
+/*
 main{
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between; */
+    /*justify-content: space-between; *//*
     gap: 1rem;
 }
 
@@ -108,10 +130,10 @@ main article ul  {
     text-decoration: none;
     color: black;
 }
-
+*/
 main article p {
     font-family: 'Roboto', sans-serif;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 
 main article a {
@@ -153,6 +175,7 @@ footer ul li {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+
 
 footer ul li a:visited {
     text-decoration: none;
