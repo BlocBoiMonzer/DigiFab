@@ -24,8 +24,9 @@ body{
 
 header{
     grid-area: header;
-    background-image: url("Al-Darih-Toteel-16x9.jpg");
+    background-image: url("Sheikh+Zayed+Grand+Mosque+Full.jpg");
     background-size: cover;
+    background-position: 0% 80%;
     border-radius: 0px 0px 70px 70px;
     height: 600px;
 }
