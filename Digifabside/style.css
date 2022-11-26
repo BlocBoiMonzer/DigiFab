@@ -97,6 +97,18 @@ main{
     float: left;
 }
 
+.article-content img{
+    width: 200px;   
+    padding-right: 1rem; 
+}
+
+/*@media screen (min-width: 500px) {
+    .article-content img{
+        padding-right: 1rem;
+    }
+    
+}*/
+
 main article{
     max-width: 100%;
     width: 100%;
