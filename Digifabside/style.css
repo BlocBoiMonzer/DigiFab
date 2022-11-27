@@ -97,7 +97,7 @@ main{
     float: left;
 }
 
-/*.article-content img{
+.article-content img{
     width: 200px;   
     padding-right: 1rem; 
 }
