@@ -1,3 +1,9 @@
 test write. Trying to see if creating a new folder inside of digifabeside (first folder in repo) main site folder 
 will cause github to add it outside digifabside in the repo even thoug it's inside digifabside. In wich case I will remove the digifabside
 folder and put the website directly on the repo
+
+
+Result: It didn't create a new folder this time, but it added this text file to the new folder that was created when i tried to create an
+imgs folder
+
+NOTE: one of the folders is digifabside with small "D" and the original one is with capital "D"
