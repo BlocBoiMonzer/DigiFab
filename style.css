@@ -35,7 +35,7 @@ header{
 header nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5rem;
   /*padding-left: 1rem;
     padding-top: 5rem; for nav with multiple buttons*/
@@ -99,7 +99,12 @@ main{
 
 .article-content img{
     width: 200px;   
-    padding-right: 1rem; 
+    /*padding-right: 1rem; */
+}
+
+.article-content ol li{
+    padding: 1px;   
+    /*padding-right: 1rem; */
 }
 
 /*@media screen (min-width: 500px) {
