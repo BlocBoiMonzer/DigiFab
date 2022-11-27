@@ -1,0 +1,3 @@
+test write. Trying to see if creating a new folder inside of digifabeside (first folder in repo) main site folder 
+will cause github to add it outside digifabside in the repo even thoug it's inside digifabside. In wich case I will remove the digifabside
+folder and put the website directly on the repo
