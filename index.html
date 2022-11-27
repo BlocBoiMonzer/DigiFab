@@ -48,6 +48,7 @@
                     <h1>Alu 3000 - 3D printing deleksamen 1</h1>
                     <p>Har du noen gang glemt å kjøpe aluminiumsfolie med kutter i kartongen eller ungådd den fordi det koster hele 14kr mer?</p> 
                     <p>Nye Alu 3000 er løsningen min</p>
+                    <p>PS: alle relaterte filer er under alu3k-3d-files i <a href="https://github.com/BlocBoiMonzer/blocboimonzer.github.io" id="repo-link">github repo-et</a>.</p>
                     <img src="imgs/Alu3k(1).jpg" alt="placeholder artikkelbilde"><img src="imgs/Alu3k(9).jpg" alt="placeholder artikkelbilde"><img src="imgs/Alu3k(2).jpg" alt="placeholder artikkelbilde">
                     <p></p>
                     <h3>Stegene:</h3>
@@ -57,9 +58,20 @@
                         <li>Lagde en rektangulær prisme som var hul og hadde tenner og var litt større enn folie boksen</li>
                         <li>Oppdaget at den var for stor for 3D printeren så jeg itererte på første versjonen</li>
                         <li>Delte formen i to</li>
-                        <li>Lagde joints</li>
+                        <li>Brukte move tool til å sette den kutte forme i riktig plass. Måtte i tillegg extrude den litt sånn at åpningen i boksen blir mindre..</li>
+                        <li>Brukte combine til å gjøre de til én form</li>
+                        <li>Brukte construction plane og split til å dele formen i 2 slik at den passer i 3d printeren. Fra dette punktet kan jeg egentlig 3d printe og lime de to delene, men jeg vil prøve å lage en joint. Da legger jeg til en rektangel som stikker lenger ut den ene kroppen og bruker combine til å gjøre den en del av den ene samtidig som jeg får automatisk et hull med samme form og størrelse på den ene kroppen! </li>
+                        <p>Nå har jeg to kropper som kommer sammen som et puslespill!</p>
+                        <li>For å eksportere, gjør jeg først begge bodies til en component. Så går jeg på fil → 3d print → select og velger komponenten → refinement high for best kvalitet i meshformen → slå av send to 3d printer → ok og lagre filen der det passer meg. Den passet ikke</li>
+                        <p>Versjon 2</p>
+                        <li>Reduserer joint høyde fra 70mm til 20 for å passe det inni 3d printeren</li>
+                        <li>Til slutt brukte jeg disse slicer instillingene:</li>
+                        <img src="imgs/Alu3k-design-9.png" alt="slicer innstillinger" style="width: 500px;">
+                        <li>Valgte å printe om natta så den blir ferdig når jeg våkner. Jeg følgte med i en halv time just in case og det gikk fint, men under selve printingen ble det tomt for plast etter ca 8 timer, da måtte jeg bytte med en annen farge. Det manglet mye plast fordi alle har eksamen.</li>
+                        <li>Jeg lot den være i printeren og kom tilbake senere og oppdaget at den stoppet igjen for samme grunn, men denne gangen var det bare 20 min igjen. Det som er litt misledene er at "elapsed time" gikk fortsatt mens printen var pauset og ventet på plast, som er derfor det står 23 timer</li>
+                        <img src="imgs/Alu3k(4).jpg" alt="slicer innstillinger" style="width: 500px;">
                     </ol>
-                    <p>asdasdasdasdasdasd asdasdasd asd as adsdasdas sda dsadasdasd</p>
+                    <p></p>
                 </article>
             </div>
         </main>
